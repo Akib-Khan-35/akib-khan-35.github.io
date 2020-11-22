@@ -25,6 +25,7 @@
 .event-list .card-img1 {
   width: calc(100% + 60px);
   margin-left: -250px;
+  margin-right: 250px;
   
   z-index: 9;
   border-radius: 0;
