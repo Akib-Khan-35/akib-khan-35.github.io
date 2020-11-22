@@ -1,0 +1,64 @@
+  
+.swipybod {
+   margin: 0px;
+   padding: 0px;
+   background: #ffffff;
+   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+   font-size: 14px;
+   color:  #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+
+.swipybod1 {
+   margin: 0px;
+   padding: 0px;
+   background: #000;
+   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+   font-size: 14px;
+   color:  #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+.swipybod2 {
+   margin: 0px;
+   padding: 0px;
+   background: #000;
+   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+   font-size: 14px;
+   color:  #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.swiper-container {
+   width: 100%;
+   padding-top: 50px;
+   padding-bottom: 250px;
+}
+
+.swiper-slide {
+   background-position: center;
+   background-size: cover;
+   width: 800px;
+   height: 600px;
+
+}
+.img1
+{
+   width: 100%;
+   -webkit-box-reflect: below 1px linear-gradient(transparent,transparent, #0005);
+}
+.id
+{
+   color: #fff;
+   font-size: 20px;
+}

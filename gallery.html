@@ -1,0 +1,155 @@
+<!--DOCTYPE html-->
+<html>
+<head>
+
+  <!--favicon-->
+	  <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png"> 
+	  <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+	  <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+	  <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+	  <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+	  <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+	  <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+	  <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+	  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+	  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
+	  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+	  <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png"> 
+	  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+	  <link rel="manifest" href="assets/favicon/manifest.json"> 
+	  <meta name="msapplication-TileColor" content="#ffffff">
+	  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	  <meta name="theme-color" content="#ffffff">
+	  <!--favicon-->
+
+
+   <title>Photo Gallery</title>
+<!--====Swiper.js====-->  
+<link rel="stylesheet" href="assets/css/swiper.min.css">
+<link rel="stylesheet" href="assets/css/swipy.css">
+
+
+<style>
+.rec-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.rec-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.rec-title h2::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.rec-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #006fbe;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.rec-title p {
+  margin-bottom: 0;
+}
+</style>
+
+
+</head>
+<body style="margin: 0">
+
+
+
+ <section class="swipybod2">
+<div class="rec-title">
+			<br>
+          <h2>Photo Gallery</h2>
+        </div>
+</section>
+ <section class="swipybod1">
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="assets/img/kafco/01.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/02.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/03.jpg" class="img1"></div>
+	 
+	  <div class="swiper-slide"><img src="assets/img/kafco/05.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/06.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/07.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/08.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/09.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/10.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/11.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/12.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/13.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/14.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/15.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/16.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/17.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/18.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/19.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/20.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/21.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/22.jpg" class="img1"></div>
+	  <div class="swiper-slide"><img src="assets/img/kafco/23.jpg" class="img1"></div>
+	  
+      
+    </div>
+  
+    
+  </div>
+</section>
+<section class="swipybod2">
+
+			<br>
+          <h2 style="color: RoyalBlue">© Md.Akib Khan</h2>
+        
+</section>
+
+
+
+<script src="assets/js/swiper.min.js"></script>
+<script>
+   var swiper = new Swiper('.swiper-container', 
+   {
+     effect: 'coverflow',
+     grabCursor: true,
+     centeredSlides: true,
+     slidesPerView: 'auto',
+     coverflowEffect: {
+       rotate: 20,
+       stretch: 0,
+       depth: 200,
+       modifier: 1,
+       slideShadows: true,
+     },
+     loop:true,
+     autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+      },
+     
+   });
+ </script>
+ 
+ 
+ 
+</body>
+</html>
