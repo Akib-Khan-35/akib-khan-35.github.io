@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -11,8 +11,6 @@
   src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
-
 
 .fa {
   display: inline-block;
@@ -5402,6 +5400,16 @@ input[type="button"].btn-block {
 .tab-content > .active {
   display: block; }
 
+.glass{
+ /* Glass effect */
+  background: rgba(4, 217, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
+  border: 1px solid rgba(4, 217, 255, 0.07);
+}
+
 .navbar {
   position: relative;
   display: flex;
@@ -9815,7 +9823,7 @@ h4.sub-title {
   z-index: 9;
   width: 100%;
   margin: 0 auto;
-  top: 20px;
+  top: 0px;
   left: 0;
   right: 0; }
 
@@ -10500,17 +10508,32 @@ h4.sub-title {
     font-size: 40px;
     line-height: 50px; } }
 
-.w3l-about .progress {
+.progress {
   height: .3rem; }
 
-.w3l-about .skills-bar-grids h4 {
+.skills-bar-grids h4 {
   font-size: 14px;
   line-height: 30px;
   font-weight: 700;
   color: var(--title-color);
   margin-bottom: 10px; }
 
-.w3l-about .bg-color {
+.icon {
+ height: 35px;
+ width: 35px;
+}
+
+.iconR{
+ height: 100px;
+ width: 100px; 
+}
+
+.bigIcon{
+ height: 250px;
+ width: 250px;
+}
+
+.bg-color {
   background: linear-gradient(to right, #35a22c 0%, #0ea8cf 100%); }
 
 .w3l-feature-3 {
@@ -12321,5 +12344,3 @@ body:after {
     font-size: 35px; }
   .w3l-service-breadcrum .breadcrum-bg {
     padding-top: 60px; } }
-
-/*# sourceMappingURL=style-starter.css.map */
