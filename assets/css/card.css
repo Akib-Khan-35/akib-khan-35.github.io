@@ -36,17 +36,10 @@
   transition: all 0.3s ease-in-out;
 }
 
-
-
-
-
-
-
-
 .event-list .card-body {
   z-index: 10;
-  background: #fff;
-  border-top: 4px solid #fff;
+  background: #faf9f6;
+  border-top: 4px solid RoyalBlue;
   padding: 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   margin-top: -60px;
