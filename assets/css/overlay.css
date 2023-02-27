@@ -1,0 +1,30 @@
+
+.imageOv {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middleOv {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 110px;
+  left: 70px;
+  text-align: center;
+}
+
+.containerOv:hover .imageOv{
+  opacity: 0.3;
+}
+
+.containerOv:hover .middleOv {
+  opacity: 1;
+}
+
+.textOv {
+  background-color: #28282b;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}

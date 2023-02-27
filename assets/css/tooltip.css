@@ -1,0 +1,61 @@
+/************** Tool Tip Styles ********************************/
+.tool-tip {
+  display: inline-block;
+  position: relative;
+  margin-left: 0.5em;
+}
+.tool-tip .tool-tip__icon {
+  background: #27b1f0;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  font-style: italic;
+  font-family: times new roman;
+  height: 20px;
+  line-height: 1.3em;
+  text-align: center;
+  width: 20px;
+}
+.tool-tip .tool-tip__info {
+  /* From https://css.glass */
+  background: rgba(4, 217, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
+  border: 1px solid rgba(4, 217, 255, 0.07);
+  display: none;
+  position: absolute;
+  padding: 0.5rem;
+  left: 30px;
+  top: -20px;
+  width: 250px;
+  z-index: 2;
+}
+.tool-tip .tool-tip__info:before, .tool-tip .tool-tip__info:after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 7px;
+  border-style: solid;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #27b1f0;
+}
+.tool-tip .tool-tip__info:after {
+  left: -8px;
+  border-right-color: #262626;
+}
+.tool-tip .tool-tip__info .info {
+  display: block;
+}
+.tool-tip .tool-tip__info .info__title {
+  color: #55CCFF;
+}
+.tool-tip:hover .tool-tip__info, .tool-tip:focus .tool-tip__info {
+  display: inline-block;
+}
+
+.info{
+ font-size: 1rem;
+ color: #99CCFF;
+}
