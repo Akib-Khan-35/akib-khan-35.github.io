@@ -6,12 +6,14 @@
   text-align: center;
 }
 
-.features .icon {
+.features .iconR {
   display: flex;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.features .icon i {
+.features .iconR i {
   width: 80px;
   height: 80px;
   margin-bottom: 20px;
@@ -25,8 +27,7 @@
   box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
 }
 
-
-.features .icon img {
+.features .iconR img {
   width: 100px;
   height: 100px;
   margin-bottom: 0px;
@@ -40,20 +41,14 @@
   box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
 }
 
-
-
-
-.features .icon-box:hover .icon i {
+.features .icon-box:hover .iconR i {
   box-shadow: 0px 0 25px rgba(0, 111, 190, 0.3);
 }
 
 
-features .icon-box:hover .icon img {
+features .icon-box:hover .iconR img {
   box-shadow: 0px 0 25px rgba(0, 111, 190, 0.3);
 }
-
-
-
 
 .features .title {
   font-weight: 600;
