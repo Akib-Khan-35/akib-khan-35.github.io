@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -5401,6 +5401,7 @@ input[type="button"].btn-block {
   display: block; }
 
 .navbar {
+  
   position: relative;
   display: flex;
   flex-wrap: wrap;
